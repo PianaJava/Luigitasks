@@ -51,4 +51,4 @@ class SummarizeReport(luigi.Task):
 
 
 if __name__ == '__main__':
-     luigi.run(['SummarizeReport', '--local-scheduler'])
+     luigi.run(['SummarizeReport']) #, '--local-scheduler']) 

@@ -6,6 +6,7 @@ Run multiple luigi tasks in series and parallel.
 # From Dev to Prod
 
 - Starting a Pipeline
+  
     In dev  -> use the local scheduler to run luigi tasks or with luigid
             Can also hard-code parameters on here
             Instead of the hard coded paramenters, to avoid mistakes, it's possible to importo using LUIGI_CONFIG_PATH (both on dev and prod) to show which config file to use

@@ -1,0 +1,454 @@
+DEBUG: Checking if DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"}) is complete
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+INFO: Done scheduling tasks
+INFO: Running Worker with 1 processes
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: 1 running tasks, waiting for next task to finish
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_1.csv, index=1) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_1_csv_1_input_54cf08df75   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) running   DownloadFile(input_folder=input, file_name=sales_1.csv, index=1)
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) done      DownloadFile(input_folder=input, file_name=sales_1.csv, index=1)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   DownloadFile_sales_1_csv_1_input_54cf08df75   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: 1 running tasks, waiting for next task to finish
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_2.csv, index=2) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_2_csv_2_input_f01f2e2894   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) running   DownloadFile(input_folder=input, file_name=sales_2.csv, index=2)
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) done      DownloadFile(input_folder=input, file_name=sales_2.csv, index=2)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   DownloadFile_sales_2_csv_2_input_f01f2e2894   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: 1 running tasks, waiting for next task to finish
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_3.csv, index=3) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_3_csv_3_input_d2e25c315b   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) running   DownloadFile(input_folder=input, file_name=sales_3.csv, index=3)
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) done      DownloadFile(input_folder=input, file_name=sales_3.csv, index=3)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   DownloadFile_sales_3_csv_3_input_d2e25c315b   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 65728] Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) done      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+INFO: Worker Worker(salt=311156822, workers=1, host=ubuntu, username=user, pid=65728) was stopped. Shutting down Keep-Alive thread
+INFO: 
+===== Luigi Execution Summary =====
+
+Scheduled 4 tasks of which:
+* 4 ran successfully:
+    - 3 DownloadFile(input_folder=input, file_name=sales_1.csv, index=1) ...
+    - 1 DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+DEBUG: Checking if DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"}) is complete
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   DONE
+INFO: Done scheduling tasks
+INFO: Running Worker with 1 processes
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+INFO: Worker Worker(salt=302614540, workers=1, host=ubuntu, username=user, pid=65741) was stopped. Shutting down Keep-Alive thread
+INFO: 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 complete ones were encountered:
+    - 1 DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+
+Did not run any tasks
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+DEBUG: Checking if DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"}) is complete
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   DONE
+INFO: Done scheduling tasks
+INFO: Running Worker with 1 processes
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+INFO: Worker Worker(salt=199589826, workers=1, host=ubuntu, username=user, pid=65758) was stopped. Shutting down Keep-Alive thread
+INFO: 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 complete ones were encountered:
+    - 1 DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+
+Did not run any tasks
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+DEBUG: Checking if DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"}) is complete
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+INFO: Done scheduling tasks
+INFO: Running Worker with 1 processes
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: 1 running tasks, waiting for next task to finish
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_1.csv, index=1) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_1_csv_1_input_54cf08df75   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) running   DownloadFile(input_folder=input, file_name=sales_1.csv, index=1)
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) done      DownloadFile(input_folder=input, file_name=sales_1.csv, index=1)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   DownloadFile_sales_1_csv_1_input_54cf08df75   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: 1 running tasks, waiting for next task to finish
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_2.csv, index=2) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_2_csv_2_input_f01f2e2894   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) running   DownloadFile(input_folder=input, file_name=sales_2.csv, index=2)
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) done      DownloadFile(input_folder=input, file_name=sales_2.csv, index=2)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   DownloadFile_sales_2_csv_2_input_f01f2e2894   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: 1 running tasks, waiting for next task to finish
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_3.csv, index=3) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_3_csv_3_input_d2e25c315b   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) running   DownloadFile(input_folder=input, file_name=sales_3.csv, index=3)
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) done      DownloadFile(input_folder=input, file_name=sales_3.csv, index=3)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   DownloadFile_sales_3_csv_3_input_d2e25c315b   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 66691] Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) done      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+INFO: Worker Worker(salt=122373045, workers=1, host=ubuntu, username=user, pid=66691) was stopped. Shutting down Keep-Alive thread
+INFO: 
+===== Luigi Execution Summary =====
+
+Scheduled 4 tasks of which:
+* 4 ran successfully:
+    - 3 DownloadFile(input_folder=input, file_name=sales_1.csv, index=1) ...
+    - 1 DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+DEBUG: Checking if DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"}) is complete
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+INFO: Done scheduling tasks
+INFO: Running Worker with 1 processes
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: 1 running tasks, waiting for next task to finish
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_1.csv, index=1) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_1_csv_1_input_54cf08df75   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) running   DownloadFile(input_folder=input, file_name=sales_1.csv, index=1)
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) done      DownloadFile(input_folder=input, file_name=sales_1.csv, index=1)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   DownloadFile_sales_1_csv_1_input_54cf08df75   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: 1 running tasks, waiting for next task to finish
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_2.csv, index=2) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_2_csv_2_input_f01f2e2894   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) running   DownloadFile(input_folder=input, file_name=sales_2.csv, index=2)
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) done      DownloadFile(input_folder=input, file_name=sales_2.csv, index=2)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   DownloadFile_sales_2_csv_2_input_f01f2e2894   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: 1 running tasks, waiting for next task to finish
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_3.csv, index=3) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_3_csv_3_input_d2e25c315b   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) running   DownloadFile(input_folder=input, file_name=sales_3.csv, index=3)
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) done      DownloadFile(input_folder=input, file_name=sales_3.csv, index=3)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   DownloadFile_sales_3_csv_3_input_d2e25c315b   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 66906] Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) done      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+INFO: Worker Worker(salt=462269182, workers=1, host=ubuntu, username=user, pid=66906) was stopped. Shutting down Keep-Alive thread
+INFO: 
+===== Luigi Execution Summary =====
+
+Scheduled 4 tasks of which:
+* 4 ran successfully:
+    - 3 DownloadFile(input_folder=input, file_name=sales_1.csv, index=1) ...
+    - 1 DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+DEBUG: Checking if DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"}) is complete
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+INFO: Done scheduling tasks
+INFO: Running Worker with 3 processes
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+DEBUG: Asking scheduler for work...
+INFO: [pid 66929] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadSalesData___input____input_710066b8fd is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+INFO: [pid 66929] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_1.csv, index=1) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_1_csv_1_input_54cf08df75   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+DEBUG: Asking scheduler for work...
+INFO: [pid 66931] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) running   DownloadFile(input_folder=input, file_name=sales_1.csv, index=1)
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_1_csv_1_input_54cf08df75 is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_1_csv_1_input_54cf08df75 is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_1_csv_1_input_54cf08df75 is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_1_csv_1_input_54cf08df75 is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_1_csv_1_input_54cf08df75 is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+INFO: [pid 66931] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) done      DownloadFile(input_folder=input, file_name=sales_1.csv, index=1)
+INFO: Informed scheduler that task   DownloadFile_sales_1_csv_1_input_54cf08df75   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadSalesData___input____input_710066b8fd is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+INFO: [pid 66933] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 66933] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_2.csv, index=2) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_2_csv_2_input_f01f2e2894   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+INFO: [pid 66935] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) running   DownloadFile(input_folder=input, file_name=sales_2.csv, index=2)
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_2_csv_2_input_f01f2e2894 is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_2_csv_2_input_f01f2e2894 is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_2_csv_2_input_f01f2e2894 is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_2_csv_2_input_f01f2e2894 is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_2_csv_2_input_f01f2e2894 is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+INFO: [pid 66935] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) done      DownloadFile(input_folder=input, file_name=sales_2.csv, index=2)
+INFO: Informed scheduler that task   DownloadFile_sales_2_csv_2_input_f01f2e2894   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+DEBUG: Asking scheduler for work...
+INFO: [pid 66937] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadSalesData___input____input_710066b8fd is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+INFO: [pid 66937] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_3.csv, index=3) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_3_csv_3_input_d2e25c315b   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+DEBUG: Asking scheduler for work...
+INFO: [pid 66939] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) running   DownloadFile(input_folder=input, file_name=sales_3.csv, index=3)
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_3_csv_3_input_d2e25c315b is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_3_csv_3_input_d2e25c315b is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_3_csv_3_input_d2e25c315b is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_3_csv_3_input_d2e25c315b is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_3_csv_3_input_d2e25c315b is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+INFO: [pid 66939] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) done      DownloadFile(input_folder=input, file_name=sales_3.csv, index=3)
+INFO: Informed scheduler that task   DownloadFile_sales_3_csv_3_input_d2e25c315b   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+DEBUG: Asking scheduler for work...
+INFO: [pid 66941] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadSalesData___input____input_710066b8fd is currently run by worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927)
+INFO: [pid 66941] Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) done      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+INFO: Worker Worker(salt=419839923, workers=3, host=ubuntu, username=user, pid=66927) was stopped. Shutting down Keep-Alive thread
+INFO: 
+===== Luigi Execution Summary =====
+
+Scheduled 4 tasks of which:
+* 4 ran successfully:
+    - 3 DownloadFile(input_folder=input, file_name=sales_1.csv, index=1) ...
+    - 1 DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+DEBUG: Checking if DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"}) is complete
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+INFO: Done scheduling tasks
+INFO: Running Worker with 3 processes
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+DEBUG: Asking scheduler for work...
+INFO: [pid 66971] Worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadSalesData___input____input_710066b8fd is currently run by worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969)
+INFO: [pid 66971] Worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969) new requirements      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_1.csv, index=1) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_1_csv_1_input_54cf08df75   has status   PENDING
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_2.csv, index=2) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_2_csv_2_input_f01f2e2894   has status   PENDING
+DEBUG: Checking if DownloadFile(input_folder=input, file_name=sales_3.csv, index=3) is complete
+INFO: Informed scheduler that task   DownloadFile_sales_3_csv_3_input_d2e25c315b   has status   PENDING
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   PENDING
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 4
+DEBUG: Asking scheduler for work...
+INFO: [pid 66973] Worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969) running   DownloadFile(input_folder=input, file_name=sales_1.csv, index=1)
+DEBUG: Pending tasks: 3
+DEBUG: Asking scheduler for work...
+INFO: [pid 66974] Worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969) running   DownloadFile(input_folder=input, file_name=sales_2.csv, index=2)
+DEBUG: Pending tasks: 2
+DEBUG: 3 running tasks, waiting for next task to finish
+INFO: [pid 66975] Worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969) running   DownloadFile(input_folder=input, file_name=sales_3.csv, index=3)
+DEBUG: 3 running tasks, waiting for next task to finish
+DEBUG: 3 running tasks, waiting for next task to finish
+DEBUG: 3 running tasks, waiting for next task to finish
+DEBUG: 3 running tasks, waiting for next task to finish
+INFO: [pid 66973] Worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969) done      DownloadFile(input_folder=input, file_name=sales_1.csv, index=1)
+INFO: Informed scheduler that task   DownloadFile_sales_1_csv_1_input_54cf08df75   has status   DONE
+DEBUG: Asking scheduler for work...
+INFO: [pid 66974] Worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969) done      DownloadFile(input_folder=input, file_name=sales_2.csv, index=2)
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_2_csv_2_input_f01f2e2894 is currently run by worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969)
+DEBUG: DownloadFile_sales_3_csv_3_input_d2e25c315b is currently run by worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969)
+INFO: Informed scheduler that task   DownloadFile_sales_2_csv_2_input_f01f2e2894   has status   DONE
+DEBUG: Asking scheduler for work...
+INFO: [pid 66975] Worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969) done      DownloadFile(input_folder=input, file_name=sales_3.csv, index=3)
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadFile_sales_3_csv_3_input_d2e25c315b is currently run by worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969)
+INFO: Informed scheduler that task   DownloadFile_sales_3_csv_3_input_d2e25c315b   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+DEBUG: DownloadSalesData___input____input_710066b8fd is currently run by worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969)
+INFO: [pid 66979] Worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969) running   DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: [pid 66979] Worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969) done      DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+INFO: Informed scheduler that task   DownloadSalesData___input____input_710066b8fd   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+INFO: Worker Worker(salt=015072674, workers=3, host=ubuntu, username=user, pid=66969) was stopped. Shutting down Keep-Alive thread
+INFO: 
+===== Luigi Execution Summary =====
+
+Scheduled 4 tasks of which:
+* 4 ran successfully:
+    - 3 DownloadFile(input_folder=input, file_name=sales_1.csv, index=1) ...
+    - 1 DownloadSalesData(params={"input": "input", "output": "allsales_dev.csv"})
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
